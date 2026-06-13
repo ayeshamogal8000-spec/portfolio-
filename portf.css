@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(156, 143, 218);
+    color:black;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+}
+.navItem:link{
+    color:#9C9C9C;
+    text-decoration: none;
+    font-size: x-large;
+}
+.navItemList:hover{
+    border-bottom:1px solid #9C9C9C;
+}
+.navItem:active{
+    color:#9C9C9C;
+}
+.navItem:visited{
+    color:#9C9C9C;
+}
+.userInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.leftDiv{
+    flex: 1;
+    padding: 4rem;
+}
+.leftDiv h1{
+    font-size: 48px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+}
+.leftDiv p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: larger;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    font-size: larger;
+}
+.btn:hover{
+    background-color: rgb(170, 225, 239);
+    cursor: pointer;
+}
+.rightDiv{
+    flex: 1;
+}
+.rightDiv img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.sectionTitle{
+    margin: 30px 0 20px 12rem;
+ font-size: 48px;
+ margin-bottom: 30px;   
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+.project{
+    width: 18rem;
+}
+.project img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 50%;
+}
+.project h1{
+    margin: 10px;
+}
+.project p{
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.perInfo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+   font-size: larger;
+}
+.registerForm{
+    background-color: #1B1B1B;
+    width: 30%;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding:30px;
+}
+
+
+label{
+    font-size: 20px;
+}
+sup{
+    color: red;
+}
+
+input.textDemo{
+    background-color: white;
+    padding: 9px;
+    border: 0;
+    font-size: larger;
+    border-radius: 9px;
+    width: 100%;
+}
+input:focus{
+    background-color: rgb(200, 232, 245);
+}
+.centerBTN{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+.topArrow{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(17, 16, 16);
+   background-color: rgb(241, 240, 246);
+    border-radius: 50%;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 13px;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+}
